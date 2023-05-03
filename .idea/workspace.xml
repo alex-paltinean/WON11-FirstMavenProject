@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6d5fe0b-840f-424e-95c8-dbc4f3e57557" name="Changes" comment="curs 13">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/MyFirstAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/PersonLombok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/PopulateChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/ReflectionExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/homework/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/homework/Quote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/homework/QuoteReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/homework/QuoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/tdd/TDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/quotes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/homework/FirstGetEvenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/homework/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/tdd/TDDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +26,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="curs13" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -53,48 +58,103 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ReflectionExercise">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.Main" />
+}</component>
+  <component name="RunManager" selected="JUnit.FirstGetEvenTest.testExceptionWithMock">
+    <configuration name="FirstGetEvenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FirstMavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.*" />
+          <option name="PATTERN" value="org.fasttrackit.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.fasttrackit.homework" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.homework.FirstGetEvenTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.ReflectionExercise" />
+    <configuration name="FirstGetEvenTest.getListWithOnlyEvenNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FirstMavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.*" />
+          <option name="PATTERN" value="org.fasttrackit.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.fasttrackit.homework" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.homework.FirstGetEvenTest" />
+      <option name="METHOD_NAME" value="getListWithOnlyEvenNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstGetEvenTest.testExceptionWithMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fasttrackit.homework" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.homework.FirstGetEvenTest" />
+      <option name="METHOD_NAME" value="testExceptionWithMock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstGetEvenTest.throwExceptionIfListIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fasttrackit.homework" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.homework.FirstGetEvenTest" />
+      <option name="METHOD_NAME" value="throwExceptionIfListIsNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TDDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fasttrackit.tdd" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.tdd.TDDTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReflectionExercise" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FirstGetEvenTest.testExceptionWithMock" />
+        <item itemvalue="JUnit.FirstGetEvenTest" />
+        <item itemvalue="JUnit.FirstGetEvenTest.throwExceptionIfListIsNull" />
+        <item itemvalue="JUnit.FirstGetEvenTest.getListWithOnlyEvenNumbers" />
+        <item itemvalue="JUnit.TDDTest" />
       </list>
     </recent_temporary>
   </component>
@@ -107,15 +167,42 @@
       <option name="presentableId" value="Default" />
       <updated>1682353727050</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1682359914260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682359914260</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1682359950418</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682359950418</updated>
+    </task>
+    <task id="LOCAL-00003" summary="curs 13">
+      <created>1682359971638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682359971638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="curs 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="curs 13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/fasttrackit/ReflectionExercise.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/fasttrackit/homework/QuoteService.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
