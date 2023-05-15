@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6d5fe0b-840f-424e-95c8-dbc4f3e57557" name="Changes" comment="curs 13">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/MyFirstAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/PersonLombok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/PopulateChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/ReflectionExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/functional/LambdaExpressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/functional/NewJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/functional/OldJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/functional/StreamExercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/homework/RecursivityMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +20,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="curs15" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -53,24 +52,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ReflectionExercise">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.Main" />
+}</component>
+  <component name="RunManager" selected="Application.StreamExercises">
+    <configuration name="LambdaExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.functional.LambdaExpressions" />
       <module name="FirstMavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.*" />
+          <option name="PATTERN" value="org.fasttrackit.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +77,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.ReflectionExercise" />
+    <configuration name="NewJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.functional.NewJava" />
       <module name="FirstMavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.*" />
+          <option name="PATTERN" value="org.fasttrackit.functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OldJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.functional.OldJava" />
+      <module name="FirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursivityMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.homework.RecursivityMain" />
+      <module name="FirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.functional.StreamExercises" />
+      <module name="FirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,8 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReflectionExercise" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StreamExercises" />
+        <item itemvalue="Application.LambdaExpressions" />
+        <item itemvalue="Application.NewJava" />
+        <item itemvalue="Application.OldJava" />
+        <item itemvalue="Application.RecursivityMain" />
       </list>
     </recent_temporary>
   </component>
